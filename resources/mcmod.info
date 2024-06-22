@@ -1,0 +1,16 @@
+[
+{
+  "modid": "auroragalaxy",
+  "name": "AuroraMod",
+  "description": "Test de mods",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Aurore"],
+  "credits": "Tyrolium m aide",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

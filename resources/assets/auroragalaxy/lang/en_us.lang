@@ -1,0 +1,4 @@
+item.aurora_stick.name=Aurora Stick
+tile.aurora_block.name=Aurora
+tile.blue_block.name=Blue
+itemGroup.auroramod=AuroraModTab
