@@ -1,17 +1,16 @@
 package fr.aurora.minecraft.creativetabs;
-
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
-public class AuroraModTab extends CreativeTabs {
+public class AuroraModTabMinerai extends CreativeTabs {
 
-    public AuroraModTab(){
-        super("auroramod");
+    public AuroraModTabMinerai(){
+        super("AuroraModMinerai");
     }
 
     @Override
     public ItemStack getTabIconItem() {
-        return new ItemStack(Items.BAKED_POTATO);
+        return new ItemStack(Items.IRON_INGOT);
     }
 }

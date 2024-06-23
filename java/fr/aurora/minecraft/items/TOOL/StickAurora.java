@@ -1,4 +1,4 @@
-package fr.aurora.minecraft.items;
+package fr.aurora.minecraft.items.TOOL;
 
 import fr.aurora.minecraft.AuroraMod;
 import net.minecraft.item.Item;

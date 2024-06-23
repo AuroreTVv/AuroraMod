@@ -1,4 +1,8 @@
 item.aurora_stick.name=Aurora Stick
-tile.aurora_block.name=Aurora
+item.blue_block.name=blue
+item.aurora_Ingot.name=Aurora
+item.baton_aurora.name=AuroraBaton
+tile.aurora_block.name=AuroraBlock
 tile.blue_block.name=Blue
 itemGroup.auroramod=AuroraModTab
+itemGroup.AuroraModMinerai=AuroraModMinerai

@@ -7,7 +7,7 @@ import net.minecraft.block.material.Material;
 public class BlockAurora extends Block {
 
     public static String name = "aurora_block";
-    public static Material materialIn = Material.GRASS;
+    public static Material materialIn = Material.WOOD;
 
     public BlockAurora() {
         super(materialIn);

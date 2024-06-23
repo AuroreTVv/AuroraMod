@@ -19,6 +19,7 @@ public class Blocks {
 
     public static Block BLOCK_AURORA;
     public static Block BLUE_BLOCK;
+    public static Block AURORA_CRAFT;
 
     public static void init() {
         BLOCK_AURORA = new BlockAurora();
@@ -38,7 +39,7 @@ public class Blocks {
         event.getRegistry().registerAll(
                 new ItemBlock(BLOCK_AURORA).setRegistryName(BLOCK_AURORA.getRegistryName()),
                 new ItemBlock(BLUE_BLOCK).setRegistryName(BLUE_BLOCK.getRegistryName())
-        );
+                );
     }
 
     @SubscribeEvent

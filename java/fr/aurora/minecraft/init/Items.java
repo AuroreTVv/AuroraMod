@@ -1,8 +1,10 @@
 package fr.aurora.minecraft.init;
 
 import fr.aurora.minecraft.Global;
-import fr.aurora.minecraft.items.BatonAurora;
-import fr.aurora.minecraft.items.StickAurora;
+import fr.aurora.minecraft.items.AuroraIngot;
+import fr.aurora.minecraft.items.Minerai.kyaneosingot;
+import fr.aurora.minecraft.items.TOOL.BatonAurora;
+import fr.aurora.minecraft.items.TOOL.StickAurora;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -17,10 +19,14 @@ public class Items {
 
     public static Item STICK_AURORA;
     public static Item BATON_AURORA;
+    public static Item AURORA_INGOT;
+    public static Item KYANEOS_INGOT;
 
     public static void init() {
         STICK_AURORA = new StickAurora();
         BATON_AURORA = new BatonAurora();
+        AURORA_INGOT = new AuroraIngot();
+        KYANEOS_INGOT = new kyaneosingot();
     }
 
 
@@ -34,6 +40,8 @@ public class Items {
     {
         event.getRegistry().registerAll(STICK_AURORA);
         event.getRegistry().registerAll(BATON_AURORA);
+        event.getRegistry().registerAll(AURORA_INGOT);
+        event.getRegistry().registerAll(KYANEOS_INGOT);
     }
 
     @SubscribeEvent
@@ -41,6 +49,8 @@ public class Items {
     {
         registerRender(STICK_AURORA);
         registerRender(BATON_AURORA);
+        registerRender(AURORA_INGOT);
+        registerRender(KYANEOS_INGOT);
     }
 
     private static void registerRender(Item item)
